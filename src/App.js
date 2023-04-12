@@ -1,7 +1,9 @@
+import Header from "./Header/Header";
+
 function App() {
     return (
         <>
-            <header>Header</header>
+            <Header></Header>
             <main>Main</main>
             <footer>Footer</footer>
         </>

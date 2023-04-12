@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-/* Reset margins */
+/* Reset margins/paddings */
 body,
 h1,
 h2,
@@ -23,6 +23,7 @@ p,
 figure,
 picture {
     margin: 0;
+    padding: 0;
 }
 
 h1,
