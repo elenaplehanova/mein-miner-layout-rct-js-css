@@ -23,6 +23,7 @@
 body {
     font-family: var(--ff-sans-normal);
     font-size: 1rem;
+    font-weight: 400;
     color: var(--clr-text);
     background-color: var(--clr-main-background);
     line-height: 1.45;
