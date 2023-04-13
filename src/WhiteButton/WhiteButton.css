@@ -2,6 +2,7 @@
     background: var(--clr-white);
     color: var(--clr-dark-blue);
     font-size: 0.9375rem;
+    width: 12.5rem;
 }
 
 .button__white:hover:enabled {

@@ -9,25 +9,25 @@ const Main = () => {
                 <div className="banner banner_first">
                     <h1 className="banner_title">оборудование для майнинга оптом</h1>
                     <p className="banner_text">с гарантией 12 месяцев</p>
-                    <WhiteButton>Перейти в каталог</WhiteButton>
+                    <WhiteButton className="banner_button">Перейти в каталог</WhiteButton>
                     <img
                         className="banner_image"
                         src="/assets/banners/image-mining-equipment.png"
                         alt="оборудование для майнинга"
                     />
 
-                    <ul class="dots-list">
+                    <ul className="dots-list">
                         <a href="#pageone">
-                            <li class="dot dot-active"></li>
+                            <li className="dot dot-active"></li>
                         </a>
                         <a href="#pagetwo">
-                            <li class="dot "></li>
+                            <li className="dot "></li>
                         </a>
                         <a href="#pagethree">
-                            <li class="dot "></li>
+                            <li className="dot "></li>
                         </a>
                         <a href="#pagethree">
-                            <li class="dot "></li>
+                            <li className="dot "></li>
                         </a>
                     </ul>
                 </div>
