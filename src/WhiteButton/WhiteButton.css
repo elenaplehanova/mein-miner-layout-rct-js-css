@@ -1,6 +1,7 @@
 .button__white {
     background: var(--clr-white);
     color: var(--clr-dark-blue);
+    font-size: 0.9375rem;
 }
 
 .button__white:hover:enabled {
