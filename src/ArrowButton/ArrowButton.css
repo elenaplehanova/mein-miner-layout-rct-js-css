@@ -1,0 +1,27 @@
+.arrow__button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.arrow__button:disabled {
+    opacity: 0.6;
+    cursor: auto;
+}
+
+.arrow__link {
+    color: var(--clr-white);
+    background: transparent;
+    text-decoration: none;
+    position: relative;
+    cursor: inherit;
+}
+
+.arrow__icon {
+    position: relative;
+    top: 0.125em;
+    flex-shrink: 0;
+    margin-left: 1.25rem;
+}
+.arrow__icon * {
+    fill: currentColor;
+}
