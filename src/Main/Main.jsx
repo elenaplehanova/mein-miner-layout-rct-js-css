@@ -1,3 +1,4 @@
+import ArrowButton from "../ArrowButton/ArrowButton";
 import WhiteButton from "../WhiteButton/WhiteButton";
 import "./Main.css";
 import React from "react";
@@ -31,7 +32,17 @@ const Main = () => {
                         </a>
                     </ul>
                 </div>
-                <div className="banner banner_second"></div>
+                <div className="banner banner__second">
+                    <h1 className="banner__second_title">выгодное предложение</h1>
+                    <p className="banner__second_text-large">-20%</p>
+                    <p className="banner__second_text">на все товары Antminer</p>
+                    <img
+                        className="banner__second_image"
+                        src="/assets/banners/background-image-vector_banner-second.svg"
+                        alt="bitcoin chart"
+                    />
+                    <ArrowButton className="banner__second_button">В каталог</ArrowButton>
+                </div>
             </section>
             <section className="categories"></section>
 
